@@ -13,11 +13,13 @@
     <link rel="stylesheet" href="styles/media.css"/>
     <link rel="canonical" href="https://eachword.ru">
     <script src="scripts/main.js"></script>
-    <!--<script>-->
-        <!--if (location.protocol != "https:") {-->
-            <!--location.href = "https:" + location.href.substring(location.protocol.length);-->
-        <!--}-->
-    <!--</script>-->
+    <script>
+        // Redirect user if it is not secure connection.
+
+        if (location.protocol == "http:") {
+            location.href = "https:" + location.href.substring(location.protocol.length);
+        }
+    </script>
 </head>
 <body>
 <section class="content_wrap">
