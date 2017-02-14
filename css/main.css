@@ -172,10 +172,6 @@ a:hover {
 	color: rgba(0, 190, 243, 0.5);
 }
 
-.active:hover span {
-	color: #00bef3;
-}
-
 .footer_wrap {
 	color: #273347;
 	height: 146px;
