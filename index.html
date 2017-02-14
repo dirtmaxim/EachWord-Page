@@ -7,22 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="shortcut icon" href="favicon.png"/>
-    <link rel="stylesheet" href="css/animation.css"/>
-    <link rel="stylesheet" href="css/fonts.css"/>
-    <link rel="stylesheet" href="css/main.css"/>
-    <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" href="styles/animation.css"/>
+    <link rel="stylesheet" href="styles/fonts.css"/>
+    <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/media.css"/>
     <link rel="canonical" href="https://eachword.ru">
-    <script>
-        if (location.protocol != "https:") {
-            location.href = "https:" + location.href.substring(location.protocol.length);
-        }
-    </script>
+    <script src="scripts/main.js"></script>
+    <!--<script>-->
+        <!--if (location.protocol != "https:") {-->
+            <!--location.href = "https:" + location.href.substring(location.protocol.length);-->
+        <!--}-->
+    <!--</script>-->
 </head>
 <body>
 <section class="content_wrap">
     <div class="main_content">
         <div class="left_wrap">
-            <a href="http://eachword.ru"><img alt="EachWord" src="img/logo.png" class="logo fade_in_right"></a>
+            <a href="index.html"><img alt="EachWord" src="images/logo.png" class="logo fade_in_right"></a>
         </div>
         <div class="right_wrap">
             <div class="text">
@@ -35,20 +36,20 @@
             <div class="browsers">
                 <div class="active">
                     <a href="https://chrome.google.com/webstore/detail/eachword-expand-your-voca/ndbpgappknhobbikhmjenceoklpaalam?utm_source=chrome-app-launcher-info-dialog">
-                        <img src="img/chrome.png" alt="Chrome">
+                        <img src="images/chrome.png" alt="Chrome">
                         <div class="button">Chrome</div>
                     </a>
                     <span>Chrome Web Store</span>
                 </div>
                 <div>
-                    <img src="img/opera.png" alt="Opera">
+                    <img src="images/opera.png" alt="Opera">
                     <div>
                         <a href="#" class="button" disabled>Opera</a>
                         <span class="disabled_text">Coming soon</span>
                     </div>
                 </div>
                 <div>
-                    <img src="img/ffox.png" alt="Firefox">
+                    <img src="images/ffox.png" alt="Firefox">
                     <div>
                         <a href="#" class="button" disabled>Firefox</a>
                         <span class="disabled_text">Coming soon</span>
@@ -59,7 +60,7 @@
     </div>
     <footer class="footer_wrap">
         <span>&copy; 2017 EachWord</span>
-        <a href="#" class="write_us">Write us</a>
+        <a href="" id="write_us">Write us</a>
     </footer>
 </section>
 </body>
