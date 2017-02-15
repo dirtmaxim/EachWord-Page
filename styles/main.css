@@ -193,11 +193,6 @@ footer span {
     text-decoration: underline;
 }
 
-#annotation {
-    display: inline;
-    font-size: 16px;
-}
-
 #mail {
     font-size: 16px;
     color: #698a97;
