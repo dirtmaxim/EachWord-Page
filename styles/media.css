@@ -24,13 +24,13 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	.main_content {
-		height: calc(100% - 100px);
+		height: calc(100% - 80px);
 	}
 
 	.main_content .left_wrap{
 		width: 100%;
 		height: 104px;
-		padding: 20px 0 0 0; 
+		padding: 20px 0 0 0;
 		margin: 0;
 		float: none;
 	}
@@ -75,7 +75,7 @@
 	}
 
 	.main_content {
-		height: auto;
+		height: calc(100% - 105px);
 	}
 
 	.main_content .left_wrap{
