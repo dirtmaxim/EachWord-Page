@@ -75,7 +75,7 @@
 	}
 
 	.main_content {
-		height: calc(100% - 105px);
+		height: auto;
 	}
 
 	.main_content .left_wrap{
